@@ -1,0 +1,16 @@
+spring:
+  application:
+      name: seckill-order
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6666/eureka/
+
+server:
+  port: 8081
+
+
+
